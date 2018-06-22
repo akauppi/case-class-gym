@@ -17,7 +17,7 @@ What is less known, I think, is that the `private` restriction given above for t
 
   object B {
     override private
-    def apply(v: Int): MineB = throw new NotImplementedError    // we don't wish to allow its use
+    def apply(v: Int): B = throw new NotImplementedError    // we don't wish to allow its use
   }
 ```
 
