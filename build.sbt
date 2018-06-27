@@ -1,5 +1,6 @@
 name := "case-class-gym"
-scalaVersion := "2.12.6"
+
+scalaVersion := "2.13.0-M4"   //"2.12.6"
 
 scalacOptions ++= Seq(
   "-deprecation",
